@@ -1,0 +1,614 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <title>US Election 2020 - BBC News</title>
+    <link rel="shortcut icon" href="img/bbc.ico">
+    
+    <style> 
+        
+        body { 
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0px; 
+            padding: 0px; 
+        }
+    
+        
+        #top-menu { 
+            
+            width: 1400px; 
+            height: 40px; 
+            margin: 0 auto; 
+           
+        }
+        
+        #main-img { 
+            margin-top: 10px;
+            margin-left: 27px; 
+            margin-right: 8px; 
+            height: 20px; 
+            float: left; 
+           
+            
+        }
+        
+         
+        .top-bar-section { 
+            float: left; 
+            border-left: 1px #c1c1c1 solid; 
+            height: 100%; 
+            text-decoration: none; 
+            
+        }
+
+        #account-img { 
+           width: 25px; 
+            margin: 10px; 
+            float: left; 
+        }
+        
+        #signin-text { 
+            font-weight: bold; 
+            font-size: 13px; 
+            float: left; 
+            margin-top: 13px; 
+            margin-right: 100px; 
+         
+        }
+        
+        .tb2 {  
+            color: black; 
+            font-weight: bold; 
+            font-size: 13px; 
+            padding: 10px 25px 0px 25px; 
+            height: 30px; 
+            
+     }
+        
+        #topnav { 
+            float: left; 
+        }
+        
+        .more { 
+        margin-right: 25px; 
+        }
+        
+        #tri { 
+            height: 5px; 
+            margin-top: 16px; 
+            padding-right: 25px; 
+              }
+        
+        
+              
+         #box { 
+                background-color: #DDDDDD;
+                border: none; 
+                font-weight: bold; 
+                float: left;
+                margin-right: 0px; 
+                margin-left: 5px; 
+                margin-top: 8px; 
+                padding: 5px; 
+
+        }
+        
+        #submit { 
+            height: 15px; 
+            background-color: #DDDDDD;
+            margin-left: 0px; 
+            margin-top: 8px; 
+            padding: 5px; 
+        
+           }
+        
+     
+            
+         
+        #main-menu { 
+            background-color: #B91c21;
+            height: 35px; 
+            margin: 0;
+            position: relative; 
+            top: -40px; 
+            width: auto; 
+           
+        
+        
+        }
+        
+        #news { 
+            color: white; 
+            font-size: 35px; 
+            margin-left: 27px; 
+        }
+    
+        #mmlinks { 
+            background-color: #B91C21;
+            height: 50px; 
+            margin: 0; 
+            padding-left: 27px;
+            position: relative; 
+            top: -40px; 
+            
+        }
+        
+        .home {
+            font-size: 13px; 
+            color: white; 
+            text-decoration: none; 
+            padding-left: 0px; 
+            padding-right: 8px; 
+            margin-right: 0px; 
+            position: relative; 
+            top: 17px; 
+        
+            
+        }
+        
+        
+        .categories { 
+            font-size: 13px; 
+            color: white; 
+            text-decoration: none; 
+            border-left: 1px white solid; 
+            padding-left: 12px; 
+            padding-right: 8px; 
+            margin-right: 0px; 
+            position: relative; 
+            top: 17px; 
+            letter-spacing: 0.5px; 
+        
+        }
+        
+            
+        .categories:hover {
+            text-decoration: underline; 
+            
+        
+        }
+        
+        .more2:hover { 
+            background-color: black;
+            padding: 15px; 
+        }
+        
+        #redtri { 
+            height: 10px; 
+            position: relative; 
+            top: 17px; 
+            right: 10px; 
+        
+        }
+        
+        #election { 
+            border-bottom: 3px #B91C21 solid; 
+            font-size: 20px; 
+            color: #313131;
+            position: relative; 
+            left: 25px; 
+            top: -50px; 
+            width:107px; 
+            height: 25px; 
+        
+          
+        
+
+        }
+        
+        #ad1 { 
+            height: 150px; 
+            position: relative; 
+            top: -60px; 
+            left: 280px; 
+            
+        }
+        
+        
+        #biden { 
+            float: left; 
+            margin-left: 20px; 
+            position: relative; 
+            top: -68px; 
+            height: 350px; 
+        
+        }
+        
+        
+        h1 { 
+            color: #5E5953;
+        
+        
+        }
+        
+        
+        h1:hover { 
+            text-decoration: underline;
+            color: #156D90
+        }
+        
+        
+        #main-heading {
+            width: 350px; 
+            float: left; 
+            position: relative; 
+            top: -68px; 
+            right: -10px; 
+        }
+        
+        #mainp { 
+            color: #484848;
+            font-size: 16px; 
+        }
+        
+        #clock  { 
+            width: 18px; 
+            float: left; 
+        
+        }
+        
+        #time { 
+            font-size: 15px;
+            position: relative; 
+            top: -14px; 
+            right: -3px; 
+            color: #484848; 
+            float: left; 
+        
+        }
+        
+    
+        #timeelection {
+            float: left; 
+            font-size: 14px; 
+            position: relative; 
+            right: -10px; 
+            top: -12px;
+            border-left: 1px #3d3d3d solid; 
+            padding-left: 6px; 
+            color: #1a1a1a;
+            font-weight: 530; 
+            
+            
+        }
+        
+        #timeelection:hover {
+            
+            text-decoration: underline;
+            color: #156D90;
+            
+        }
+        
+        #ad2 { 
+            float: left; 
+            width: 300px; 
+            position: relative; 
+            top: -60px; 
+        }
+        
+        #one {  
+            height: 200px; 
+            margin-right: 50px; 
+        }
+        
+        .pic { 
+            width:300px; 
+            margin-left: 20px; 
+            position: relative; 
+            top: -325px; 
+        }
+        
+        #pic1 {
+            margin-left: 20px; 
+            position: relative; 
+            top: -350px; 
+            width: 300px; 
+            
+            
+        }
+        #pic2 {
+            float: left; 
+            position: relative; 
+            top: -500px; 
+            left: 175px; 
+            width: 300px; 
+            
+            
+            
+            
+        }
+        
+           #pic3 {
+            float: left; 
+            position: relative; 
+            top: -500px; 
+            left: 200px; 
+            width: 300px; 
+            
+            
+            
+            
+        }
+        
+        .ph { 
+            font-size: 16px; 
+            
+        
+            
+        
+        }
+        
+        .p1 { 
+            color: #484848; 
+            position: relative; 
+            top: -20px; 
+            font-size: 14px; 
+        }
+        
+        .threeimgs { 
+            position: relative; 
+            top: -20px; 
+        }
+        
+         .threeimgs1 { 
+            position: relative; 
+            top: -10px; 
+        }
+        
+        #findus { 
+            color: #222222; 
+            float: left; 
+            position: relative; 
+            left: -750px; 
+            top: -250px; 
+        }
+        
+        #line {
+            width: 1100px; 
+            border-top: 1px black solid; 
+            margin-left: 200px; 
+            margin-top: -215px; 
+        
+        }
+        
+        .socials { 
+            height: 35px; 
+            margin: 40px 55px 0px 40px; 
+            
+            
+        
+        }
+        
+        #mail { 
+            margin-left: 250px;
+            position: relative; 
+            top: 25px; 
+            height: 50px; 
+            border-left: 1px #D5D0CD solid; 
+            padding-bottom: 40px; 
+            padding-left: 10px; 
+           
+            
+        }
+        
+        .bold { 
+            font-weight: bold; 
+        }
+        
+        .light { 
+            font-weight: lighter; 
+        }
+
+          
+          
+        
+        #newsborder { 
+            border-left: 1px #5a5a5a solid; 
+            position: relative; 
+            left: 740px; 
+            top: -85px;  
+            color: #5a5a5a;
+            padding-left: 10px; 
+            padding-bottom: 1px; 
+        }
+        
+        #newsdaily {
+            position: relative; 
+            top: 10px; 
+            font-size: 20px; 
+        }
+        
+        
+        #morning { 
+            width: 250px;
+            float: left;
+            font-weight: bold; 
+            font-size: 14px; 
+            position: relative; 
+            top: -143px; 
+            left: -240px; 
+            
+        }
+        
+       
+        
+    </style>
+</head>
+
+<body>
+    
+    
+    <div id="top-menu">
+    
+    
+        <img id="main-img" src="img/main.png"> 
+        
+        <div id="sign-in" class="top-bar-section">
+            <img id="account-img" src="img/account.png">
+            <p id="signin-text">Sign in</p>
+        </div>
+        
+        <div id="topnav">
+            <a class="top-bar-section tb2" href="#">Home</a>
+            <a class="top-bar-section tb2" href="#">News</a>
+            <a class="top-bar-section tb2" href="#">Sport</a>
+            <a class="top-bar-section tb2" href="#">Reel</a>
+            <a class="top-bar-section tb2" href="#">Worklife</a>
+            <a class="top-bar-section tb2" href="#">Travel</a>
+            <a class="top-bar-section tb2" href="#">Future</a>
+            <a class="top-bar-section tb2" href="#">Culture</a>
+            <a class="top-bar-section tb2 more" href="#">More</a>
+            <img id="tri" src="img/tri.png">
+        </div>
+        
+        <div class="top-bar-section">
+        
+            <input id="box" type="text" value="Search" placeholder="Search">
+            <input id="submit" type="image" src="img/glass.svg">
+            
+        </div>
+  
+        
+     </div>
+    
+
+   <div id="main-menu">
+    <p id="news">NEWS</p>
+    </div>
+    <div id="mmlinks">
+        <a class="home"href="#">Home</a>
+        <a class="categories" href="#">US Election</a>
+        <a class="categories" href="#">Coronavirus</a>
+        <a class="categories" href="#">Video</a>
+        <a class="categories" href="#">World</a>
+        <a class="categories" href="#">US &amp; Canada</a>
+        <a class="categories" href="#">UK</a>
+        <a class="categories" href="#">Business</a>
+        <a class="categories" href="#">Tech</a>
+        <a class="categories" href="#">Science</a>
+        <a class="categories" href="#">Stories</a>
+        <a class="categories" href="#">Entertainment &amp; Arts</a>
+        <a class="categories" href="#">Health</a>
+        <a class="categories" href="#">In Pictures</a>
+        <a class="categories more2" href="#">More</a>
+        <img id="redtri" src="img/redtri.png">
+        
+        
+        
+    
+    </div>
+    
+    <div id="election">
+        <p>US Election</p>
+    </div>
+    
+    
+            <img id="ad1" src="img/ad1.png">
+    
+  
+    
+    <div id="main-article"> 
+        
+        <img id="biden" src="img/biden.png">
+        
+            <div id="main-heading">
+        
+                <h1>Biden vows to end Trump's 'season of darkness'</h1>
+                <p id="mainp">Newely minted Democratic White House nominee implores voters to reject Mr Trump in November's election.</p>
+                
+                <img id="clock" src="img/clock.png">
+                
+                <p id="time">2d</p>
+                <p id="timeelection">US Election 2020</p>
+            
+            </div>
+    </div>
+    
+    <div id="adbox">
+        <img id="ad2" src="img/ad2.png">
+    </div>
+    
+    <div id="threepics">
+        <img class="pic" src="img/one.png">
+        <img class="pic" src="img/two.png">
+        <img class="pic" src="img/three.png">
+    </div>
+    
+     
+            
+   
+    <div id="pic1">
+        
+                <h5 class="ph">Did Joe Biden succeed in making his case?</h5>
+                <p class="p1">There was huge pressure on the White House hopeful as he gave the most important speech of his long career.</p>
+                
+            <div class="threeimgs">
+                <img id="clock" src="img/clock.png">
+                
+                <p id="time">2d</p>
+                <p id="timeelection">US Election 2020</p>
+            </div>
+    </div>
+   
+    
+    <div id="pic2">
+        
+                <h5 class="ph">'Character and decency are on the ballot'</h5>
+                <p class="p1">Joe Biden calls for unity as he accepts the Democratic Party's presidential nomination.</p>
+                
+            <div class="threeimgs1">
+                <img id="clock" src="img/clock.png">
+                
+                <p id="time">2d</p>
+                <p id="timeelection">US Election 2020</p>
+            </div>
+    </div>
+    
+    <div id="pic3">
+        
+                <h5 class="ph">Joe Biden convention speech fact-checked</h5>
+                <p class="p1">Joe Biden made claims about coronavirus and unemployment in his first major speech as the Democratic presidental nominee. </p>
+                
+            <div class="threeimgs">
+                <img id="clock" src="img/clock.png">
+                
+                <p id="time">2d</p>
+                <p id="timeelection">US &amp; Canada</p>
+            </div>
+    </div>
+    
+    <h2 id="findus">Find us here</h2>
+    
+    <div id="line">
+       
+    </div>
+    
+    <img class="socials" id="twitter" src="img/twitter.png">
+    <img class="socials" id="facebook" src="img/facebook.png">
+    <img class="socials" id="instagram" src="img/instagram.png">
+    
+ 
+    <img id="mail" src="img/mail.png"> 
+    
+    <div id="newsborder">
+        <p id="newsdaily"><span class="bold">NEWS</span> <span class="light">DAILY</span></p>
+    
+    </div>
+
+    
+    <div id="morning">
+    
+        <p>Get news from the BBC in your inbox each weekday morning</p>
+        
+    </div>
+     
+   
+    
+   
+    
+ 
+    
+</body>
+
+
+
+</html>
