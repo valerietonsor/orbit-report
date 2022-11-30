@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body { 
+    background-color: hsl(30, 38%, 92%);
+}
+
+#mainImage { 
+    max-width: 250px;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+    display: block;
+    float: left; 
+ }
+ 
+ #mainDiv{ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px; 
+    width: 50%;
+ }
+ 
+ 
+ #textDiv{
+    background-color: white;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    max-width: 225px;
+    margin: 0px; 
+    padding-left: 25px; 
+    padding-top: 0px;  
+    display: block; 
+    float: left; 
+    padding-bottom: 11px;
+
+ }
+
+h1 { 
+    font-family: 'Fraunces', sans-serif;
+    margin-top: 20px; 
+    font-size: 30px; 
+    line-height: 30px; 
+}
+
+#perfume { 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 200; 
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%); 
+    font-size: 11px;
+    line-height: 4px; 
+    margin-top: 30px; 
+    margin-bottom: 0px; 
+    
+}
+
+#paragraph{ 
+    font-size: 12px; 
+    font-family: 'Montserrat',  sans-serif; 
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+
+button { 
+    background-color: hsl(158, 36%, 37%); 
+    border-radius: 4px;
+    border: none; 
+    width: 200px; 
+    margin-top: -10px; 
+
+}
+
+#buttonText { 
+    color: white; 
+    font-family: 'Montserrat',  sans-serif; 
+    font-weight: 700;
+    font-size: 10px; 
+}
+
+#buttonImage { 
+   float: left; 
+   margin-top: 7px; 
+   margin-left: 40px; 
+}
+
+#salePrice { 
+    color:hsl(158, 36%, 37%); 
+    display: block;
+    float: left; 
+    margin-top: 10px; 
+    font-size: 30px; 
+    font-family: 'Fraunces', sans-serif;
+
+
+}
+
+#price { 
+    text-decoration: line-through;
+    display: block; 
+    float: left; 
+    margin-left: 15px; 
+    padding-top: 10px; 
+    color: hsl(228, 12%, 48%);
+    font-size: 12px; 
+    font-family: 'Montserrat',  sans-serif; 
+}
+
+
+
+footer { 
+    text-align: center;
+    margin-bottom: 5px; 
+    position:absolute;
+    bottom:0;
+    width:100%;
+    visibility: hidden;
+}
